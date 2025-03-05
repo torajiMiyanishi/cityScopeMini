@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "websocket-server"
+version = "0.1.0"
+description = ""
+authors = ["tora233824 <mf23113@shibaura-it.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+websockets = "^15.0"
+opencv-python = "^4.11.0.86"
+opencv-contrib-python = "^4.11.0.86"
+numpy = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
